@@ -44,7 +44,7 @@ exports.destroy = async (obj, id_aluno)=>{
     
         }
 
-        aluno.removeHardskill(new_aluno_hardskill)
+        aluno.removeHardskill(newAluno_hardskill)
         newAluno_hardskill = [];
         
         return true
